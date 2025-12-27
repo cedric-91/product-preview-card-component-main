@@ -1,0 +1,14 @@
+@utility inline-flex-center {
+	@apply inline-flex items-center justify-center;
+}
+
+@utility cart-icon {
+	&::before {
+		content: "";
+		width: 15px;
+		height: 16px;
+		background-image: url("../images/icon-cart.svg");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}

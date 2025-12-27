@@ -1,0 +1,12 @@
+.font-montserrat {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500 700;
+	font-style: normal;
+}
+.font-fraunces {
+	font-family: "Fraunces", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}

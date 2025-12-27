@@ -1,0 +1,39 @@
+@layer base {
+	:root {
+		/* FONT SIZE */
+		--fs-regular: 0.875rem;
+		--fs-small: 0.8125rem;
+		--fs-medium: 0.969rem;
+		--fs-x-large: 2rem;
+		--fs-xl-large: 2.5rem;
+
+		/* LETTER SPACCING */
+		--ls-wide: 0.313rem;
+
+		/* COLOURS */
+		--clr-cream-200: hsl(30, 38%, 92%);
+	}
+
+	body {
+		font-size: var(--fs-regular);
+	}
+
+	button {
+		@apply cursor-pointer;
+	}
+}
+
+@theme {
+	/* FONT SIZE */
+	--text-s-regular: var(--fs-regular);
+	--text-small: var(--fs-small);
+	--text-medium: var(--fs-medium);
+	--text-x-large: var(--fs-x-large);
+	--text-xl-large: var(--fs-xl-large);
+
+	/* COLOURS */
+	--color-cream-200: var(--clr-cream-200);
+
+	/* LETTER SPACING */
+	--tracking-spacing-wide: var(--ls-wide);
+}

@@ -12,3 +12,8 @@
 		background-repeat: no-repeat;
 	}
 }
+@utility focus-visible {
+	&:focus-visible {
+		@apply outline-2 outline-offset-2 outline-green-700;
+	}
+}

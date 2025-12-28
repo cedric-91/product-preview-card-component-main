@@ -295,6 +295,14 @@
   .line-through {
     text-decoration-line: line-through;
   }
+  .focus-visible {
+    &:focus-visible {
+      outline-style: var(--tw-outline-style);
+      outline-width: 2px;
+      outline-offset: 2px;
+      outline-color: var(--color-green-700);
+    }
+  }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
@@ -304,6 +312,22 @@
       @media (hover: hover) {
         background-color: var(--color-green-900);
       }
+    }
+  }
+  .focus-visible\:outline-2 {
+    &:focus-visible {
+      outline-style: var(--tw-outline-style);
+      outline-width: 2px;
+    }
+  }
+  .focus-visible\:outline-offset-2 {
+    &:focus-visible {
+      outline-offset: 2px;
+    }
+  }
+  .focus-visible\:outline-green-700 {
+    &:focus-visible {
+      outline-color: var(--color-green-700);
     }
   }
   .sm\:grid {

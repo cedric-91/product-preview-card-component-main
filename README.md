@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Visit site](https://cedric-91.github.io/product-preview-card-component-main/)
 
 ## My process
 
@@ -48,29 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-	color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Not much on what I've learnt, but what I've used. I used grid instead of flex, for article to split the content into two columns. Which it's a little bit unusual as I usually use flex for these type of layouts.
 
 ### Continued development
 
@@ -82,5 +60,5 @@ Will continue to use HTML5 sematic (for accessibility) along with Tailwind css, 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@cedric-91](https://www.frontendmentor.io/profile/cedric-91)
 - LinkedIn - [cedrictientcheu](www.linkedin.com/in/cedrictientcheu)
